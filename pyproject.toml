@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mongodatahandler"
+version = "0.1.0"
+description = ""
+authors = ["paulmusquaro <136118097+paulmusquaro@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pymongo = "^4.9.1"
+environs = "^11.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
